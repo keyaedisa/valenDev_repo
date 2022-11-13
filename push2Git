@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Oki, preparing for push to git server" & sleep 1.3
+git add -A
+git commit -a
+git push
+echo "Done, don't forget repo server takes a few minutes to be available through pacman!"
