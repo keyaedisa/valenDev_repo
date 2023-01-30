@@ -2,7 +2,7 @@
 
 echo "Automatically adding Valen Dev Repo to your /etc/pacman.conf"
 wget https://raw.githubusercontent.com/keyaedisa/valenDev_repo/trunk/README.md
-sed -n '19,22p' README.md >> /etc/pacman.conf
+sed -n '12,15p' README.md >> /etc/pacman.conf
 rm README.md
 echo "Updating pacman databases"
 wget https://raw.githubusercontent.com/keyaedisa/valenDev_repo/trunk/install/repo-Arch-public-key.gpg
